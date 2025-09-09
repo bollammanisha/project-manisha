@@ -1,0 +1,47 @@
+
+body{
+    background-color:antiquewhite;
+    background-image:url("img.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    /* border-radius;5px; */
+    font-family:verdana , Verdana, Geneva, Tahoma, sans-serif;
+    font-size : large;
+}
+h1 {
+    color:black;
+    text-align: center;
+    font-size :medium;
+    font-family : 'lucida sans','lucida sans', 'lucida sans';
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+    font-size: medium;
+    font-family:'lucida sans','lucida sans','lucida sans';
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+img {
+    border-radius:19%;
+}
+.profiledata{
+    color:brown
+}
+#profiledata{
+    background-color:blueviolet;
+    color:aquamarine;
+}
+ div{
+    text-align: center;
+    background-color:chartreuse;
+    content: interit;
+    width: 500px;
+    padding: 17pk;
+    border: 4px; color:brown;
+    margin:20px;
+
+ }

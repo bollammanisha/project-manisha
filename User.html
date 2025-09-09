@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <tittle>
+            User Registar
+        </tittle>
+        <style>
+            form{
+                background-color:blueviolet;
+            }
+        </style>
+    </head>
+     <body>
+        <form action="action.php" method="POST">
+            <input type="text" name="Username" placeholder="Enter the user Name...." required="true" readonly value="manisha" disabled>
+            <br><br>
+            <input type="text" name="user name" placeholder="enter your name...." required="true" disabled>
+            <br><br>
+            <input type="number" name="mobile number" placeholder="enter your mobile number" required>
+            <br><br>
+            <input type="email" name="email" placeholder="enter email" required>
+            <br><br>
+            <input type="password" name="password" placeholder="enter password" requied>
+            <br><br>
+            <input type="date" name="date" placeholder="enter the date" requied>
+            <br><br>
+            <input type="time" name="time" required>
+            <br><br>
+            <input type="tel" name="tel"required>
+            <br><br>
+            <input type="radio" name="gender" value="male" required> male
+            <input type="radio" name="gender" value="female" required> female
+            <br><br>
+            <input type="checkbox" name="accept" required> Data Accepted
+            <br><br> 
+            <input type="range" min="0" max="100" required> age number
+            <br><br>
+            <input type="color" name="color" required>
+            <br><br>
+            <input type="file" name="file" required>
+
+            <br><br>
+            <input type="hidden" value="manisha" name="names">
+            <br><br>
+            <select name="branch[]" multiple size="3" required>
+                <option value="ECE"> ECE </option>
+                <option value="CSE"> CSE </option>
+                <option value="EEE" > EEE </option>
+                <option value="AIML">AIML</option>
+                <option value="DS">DS</option>
+            </select>
+            <br><br>
+            <input type="file" name="file[]" multiple required>
+            <br><br>
+            <textarea name="address"
+                   cols="10" rows="3"
+                   placeholder="enter your address"
+                   required> </textarea>
+            <input type="submit" value="submit">
+            <br><br>
+            <input type="reset" value="reset">
+            <br><br>
+            <input type="button" value="button">
+            
+            
+        </form>
+     </body>
+</html>
